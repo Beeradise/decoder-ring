@@ -754,4 +754,11 @@ whole-file digests match (T5). Generation wall-time on this box: **85.7 s** (com
 6. **The wikitext stripper (`wiki_ingest.py`) is deliberately approximate.** Templates,
    tables, refs, and media/category links are removed by a staged stdlib pipeline (two tiny
    nesting scanners + ordered regexes, no `mwparserfromhell`); rare markup residue is harmless
+
+Feedback & Usage
+If you use this project, I'd love to hear about it! Feel free to open an issue, 
+drop a message, or reference this repository to let me know what cool things you
+are building with it.
+
+email: beeradise@gmail.com
    to a retrieval stress test and is left as-is. See the "Wikipedia test corpus" section.
