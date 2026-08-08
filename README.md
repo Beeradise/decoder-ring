@@ -754,11 +754,31 @@ whole-file digests match (T5). Generation wall-time on this box: **85.7 s** (com
 6. **The wikitext stripper (`wiki_ingest.py`) is deliberately approximate.** Templates,
    tables, refs, and media/category links are removed by a staged stdlib pipeline (two tiny
    nesting scanners + ordered regexes, no `mwparserfromhell`); rare markup residue is harmless
-
+   to a retrieval stress test and is left as-is. See the "Wikipedia test corpus" section.
+   
 Feedback & Usage
 If you use this project, I'd love to hear about it! Feel free to open an issue, 
 drop a message, or reference this repository to let me know what cool things you
 are building with it.
 
 email: beeradise@gmail.com
-   to a retrieval stress test and is left as-is. See the "Wikipedia test corpus" section.
+
+## Acknowledgements & References
+
+Decoder Ring builds upon the foundational mathematics and theoretical frameworks of Hyperdimensional 
+Computing (HDC) and Vector Symbolic Architectures (VSA). 
+
+Special acknowledgement goes to the researchers at UC Berkeley—particularly Pentti Kanerva and the Redwood 
+Center for Theoretical Neuroscience—whose pioneering work on Sparse Distributed Memory and high-dimensional 
+representational spaces laid the groundwork for this entire computing paradigm. Their research proved that 
+high-dimensional random vectors could form robust, scalable architectures for cognitive computing. 
+If you are interested in the academic roots of the deterministic token-to-hypervector approaches used in 
+this engine, I highly recommend exploring their literature:
+*   **Kanerva, P. (2009).** *Hyperdimensional Computing: An Introduction to Computing in Distributed Representation with High-Dimensional Random Vectors.* Cognitive Computation.
+*   *Also thanks to Dennis Kleyko and Ryan Moughan*
+
+The open-source release of this deterministic codebook is intended to further the practical, local, and 
+reproducible application of these concepts in modern Retrieval-Augmented Generation (RAG) systems.
+
+
+   
